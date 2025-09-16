@@ -11,6 +11,9 @@ This paragraph explains the ultimate goal of the project, its specificity and ma
 
 Please also indicates the problem this project aims at solving
 
+
+### Problem description
+
 ### hardware summary overview
 
 ### Standard compliance
@@ -28,8 +31,6 @@ Please also indicates the problem this project aims at solving
 ## Cite this project
 
 ### scientific publication
-
-## Problem description
 
 ## dependencies
 indicate and cite projects this project is built on

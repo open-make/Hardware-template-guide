@@ -8,16 +8,18 @@ At this step, you want to share your idea, usually with a small number of people
 
 This should all be included in the readme file:
 
--   [ ] General information
+-   [ ] General information @sec-readme
 
     -   [ ] name of the project
     -   [ ] development stage: idea generation
-    -   [ ] *type of hardware, subject area*
+    -   [ ] *type of hardware, subject area* @sec-type-of-hardware-subject-area
+    -   [ ] For whom is this documentation made 
     -   [ ] **License(s)** @sec-license-and-rights
-    -   [ ] FOR WHO IS MADE THIS DOCUMENT @sec-community-building
-    -   [ ] short problem description @sec-problem-description
+
 
 -   [ ] vision and motivations @sec-vision-and-motivation
+
+-   [ ] short problem description @sec-problem-description
 
 -   [ ] Contributions
 

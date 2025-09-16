@@ -5,8 +5,6 @@
 
 > To Add before "## Community and Contributions"
 
-## Problem description
-
 ## Roadmap
 This paragraph explains briefly the history of the project and the future milestones and time plan.
 

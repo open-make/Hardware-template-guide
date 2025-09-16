@@ -11,6 +11,8 @@ This paragraph explains the ultimate goal of the project, its specificity and ma
 
 Please also indicates the problem this project aims at solving
 
+## Problem description
+
 ## Community and Contributions
 This section explains who is behind the project.
 
