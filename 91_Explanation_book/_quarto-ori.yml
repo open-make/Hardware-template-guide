@@ -23,6 +23,7 @@ book:
         - content/950_step-replication.qmd
   - part: "Readme as a first entry door"
     chapters:      
+        - content/106_readme_main.qmd
         - content/001_Vision_and_motivation.qmd
         - content/002_harware_summary_overview.qmd
         - content/003_Standard_compliance.qmd

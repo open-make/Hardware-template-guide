@@ -23,7 +23,7 @@ book:
     - content/960_prototypingasstep1_conc.qmd
   - part: Readme as a first entry door
     chapters:   
-    - content/001_Vision_and_motivation_conc.qmd
+    - content/106_readme_main_conc.qmd
   - part: Community
     chapters:   
     - content/019_Community_-_work_culture_conc.qmd

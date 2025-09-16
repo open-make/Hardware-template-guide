@@ -33,3 +33,8 @@ Zenodo. 
 
 A specific [chapter on OSH](https://book.the-turing-way.org/reproducible-research/open/open-hardware#what-is-the-source-of-open-source-hardware) and the linked chapter on [OS project documentation](https://book.the-turing-way.org/project-design/pd-overview/pd-overview-repro).
 NB: The team behind this guide was involved in the redaction of these chapters.
+
+## Docubricks {#sec-source-docubricks}
+
+Docubricks is/was a metadata format providing best practices.
+The elements in this book were found on a wayback machine copy of the website in January 2025: <http://web.archive.org/web/20250120163655/https://www.docubricks.com/best-practise-guide.jsp>
