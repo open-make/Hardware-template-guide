@@ -30,6 +30,10 @@ skillset (and documentation).
 
 ## *Type of hardware, subject area* {#sec-type-of-hardware-subject-area}
 
+You may indicate the purpose of the hardware and its documentation to
+manage expectations.\
+Examples:  proof of principle, easy to make in educational workshop
+
 ------------------------------------------------------------------------
 
 **Sources**

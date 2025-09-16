@@ -4,6 +4,15 @@ Computer assisted design is usually used to create structures from the models.
 The designs should be best provided in their raw format (Native formats), an editable standard format (Neutral formats), and a exported format used for manufacture.
 For example, a fusion .f3d file, a Step file and a STL file.
 
+If possible, create and provide your CAD files in an open format, using oan pen source software.
+Also try to name files with a clear name, add material specification and number of pieces.
+
+### Brief advice for object design:
+
+-   Design the project to be easily adaptable for common differences (for example metric vs imperial units) and adaptations.
+-   make the design parametric (for example make product length and width dependent on one single parametric unit).
+-   utilize asymmetric design to make parts fit together uniquely and avoid miss-assemblies.
+
 ### CAD for electronics, PCB design
 
 To reuse a electrical design, it should provide information consist of:
@@ -63,4 +72,4 @@ To reuse a design model, it should provide information consist of:
 
 **Sources**
 
-@sec-open-next-work
+@sec-open-next-work, @sec-source-docubricks

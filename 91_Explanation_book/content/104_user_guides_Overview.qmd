@@ -19,7 +19,7 @@ It usually includes:
 
 6.  Environmental management: @sec-user-guidesenvironmental-management
 
-5.  Troubleshooting section: @sec-user-guides-troubleshooting
+5.  Troubleshooting and testing section: @sec-user-guides-troubleshooting
 
 7.  Maintenance and Repair information: @sec-maintenance, @sec-user-guides-repair
 
@@ -29,7 +29,8 @@ It usually includes:
 
 The form of the guide is usually a printable document or a website.
 It is advised to use markdown file for its creation and deliver a printable pdf for the users.
-The use of screenshots, photos and videos are usually welcome.
+The use of media such as explanatory diagrams, screenshots, pictures, photos and videos are usually welcome.
+The instruction steps should be minute and explicit.
 
 Some popular software used to create webpage and pdf from markdown files:
 
@@ -54,4 +55,4 @@ Some popular software used to create webpage and pdf from markdown files:
 
 **Sources**
 
-@sec-open-next-work
+@sec-open-next-work, @sec-source-docubricks

@@ -1,29 +1,32 @@
 ## Product Build: Bill of material {#sec-product-build-bill-of-material}
 
-A bill of materials (BOM) is a comprehensive list of parts, items, and other materials required to create a product, as well as instructions required for gathering and using the required materials.
+A bill of materials (BOM) is a comprehensive list of parts, items, and other materials required to create and assemble a product, as well as instructions required for gathering and using the required materials.
 If the component is to be purchased, one should find all the information required to buy the part.
 If the part is to be manufactured, one should find all the descriptions of the manufacturing instructions as described below.
 
 A bill of material usually includes:
 
 1.  Part number
-2.  Item name
-3.  Manufacturer part number
-4.  Digi-Key part number
-5.  Description
-6.  Manufactured part (link to manufacturing instruction)
-7.  Purchased part (link to seller website)
-8.  Quantity
+2.  Part name
+5.  Part short description
+4.  Manufacturer, and manufacturer part number
+3.  Supplier, and supplier part number
+5.  URL, link to an internet source of the part
+8.  Quantity (amount and unit)
 9.  Price
 10. Manufacturing standard lead time
 11. Packaging instruction
-12. BOM notes
+12. Pre-processing needed
+12. Notes
 
+13. Link to the documentation:
+  - Part description with media: images, videos, CAD files
+  - manufacturing_instruction: step by step instructions
 
-
+NB: Digi-Key part number is a special case of supplier part number
 ------------------------------------------------------------------------
 
 **Sources**
 
-@sec-open-next-work
+@sec-open-next-work, @sec-source-docubricks
 

@@ -53,9 +53,13 @@ Production instructions should include:
 
 ## Modularisation {#sec-modularisation}
 
-When there are multiple parts, it is best practice to have a BOM for each part, and one BOM for the whole hardware.
+When there are multiple parts, it is best practice to split the project into different modules and have a BOM for each part, and one BOM for the whole hardware.
 For complex project, it is therefore best to create BOM automatically.
 Some software are meant to created BOM from the CAD files (CAD-coupled documentation, <https://doi.org/10.5334/joh.56>) or from the assembly instruction (using [Gitbuilding](https://gitbuilding.io)).
+
+These questions may help you define what a module is: What parts of the hardware could be used as a component of another project or a variation of this hardware?
+What solutions do you find most noteworthy given your experiences during the design iterations?
+What separate functions or actions does the hardware perform?
 
 > Example
 >
@@ -76,4 +80,4 @@ For instance, using the Gitbuilding software, one can write the manufacture and 
 
 **Sources**
 
-@sec-open-next-work, @sec-source-turing
+@sec-open-next-work, @sec-source-turing, @sec-source-docubricks

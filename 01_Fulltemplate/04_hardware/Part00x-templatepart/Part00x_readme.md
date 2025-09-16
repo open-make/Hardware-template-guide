@@ -1,42 +1,46 @@
-# Part00x, title of part, version 1.0
+# Part00x, title of part
 
-This was developed as a part of ..., [URL] of main document.
-Look there for more information on the context where this part was designed,
-as well as get information on the developers and the community.
+This was developed as a part of ..., [URL] of main document, 
+Please use the main document for citation information.
 
-
-### hardware part summary overview
-
-### Standard compliance
-
-### Outputs: Products and data
-
-### cost
-
-### validation
-
-## Cite this project
-
-
-
-## dependencies
-indicate and cite projects this project is built on
-For the software part, indicate the main component, use a dependency.txt files in the software folder when needed.
+- Version :
 
 ## License and rights
 
-## Documentation structure
+## hardware part summary overview
 
+- context where this part was designed
+- function and role in main project
+- Representation (photo, 3D object,...)
+- cost
+- validation
 
-# Hardware details
+### Alternatives 
 
-## Bill of material
+### dependencies
 
-## material characteristics (including lifetime)
+Indicate and cite projects this project is built on. 
+For the software part, indicate the main component,
+use a dependency.txt files in the software folder when needed.
 
-## electrical design
+### Authors / contributors
 
-## firmware/Software: Documentation of different parts
+### Standard compliance
+
+## Hardware details
+
+### Function
+
+### Bill of material
+
+### material characteristics (including lifetime)
+
+### electrical design
+
+### firmware/Software
+
+### Outputs: Products and data
+
 
 ## Manufacturing instructions
 

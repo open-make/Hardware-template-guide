@@ -1,11 +1,11 @@
 ## Community, List of team members and contributors {#sec-list-of-team-members-contributors}
 
-Describe here who are the maintainers and the main contributors of the project, indicate their name, role in the project and link to further information.
+Describe here who are the maintainers and the main contributors of the project, indicate their name, role in the project and link to further information (for instance their orcid number and/or affiliation for academic staff).
 
 - This section may be split in different categories of contributors.
-For example, one can separate authors, contributors and aknowledged people.
+For example, one can separate authors, contributors and acknowledged people.
 There is presently no definition of these categories or standard way to report contributions.
-- For each contributor, you may indicate tasks performend (design, assembly, use cases contribution, documentation, paper
+- For each contributor, you may indicate tasks performed (design, assembly, use cases contribution, documentation, paper
 writing,...)
 
 -   Avoid giving personal information (like emails) in the documentation itself. One non-personal email (or not recognisable email) can be given as a communication tool.
@@ -16,4 +16,4 @@ writing,...)
 
 **Sources**
 
-@sec-open-next-work, @sec-journal-of-open-hardware
+@sec-open-next-work, @sec-journal-of-open-hardware, @sec-source-docubricks
