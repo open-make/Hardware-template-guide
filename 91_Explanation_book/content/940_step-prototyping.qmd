@@ -37,8 +37,10 @@ It is adviced to read the introductory chapters on hardware production @sec-prod
   - [ ] Bill of material @sec-product-build-bill-of-material
   - [ ] material characteristics @sec-product-build-material-characteristics
   - [ ] electrical design @sec-product-buildelectrical-design
-  - [ ] Software: Documentation of different parts @sec-product-build-firmwaresoftware
+  - [ ] Software: Link to softwareve documentation, see @sec-product-build-firmwaresoftware
   - [ ] Product design and CAD files @sec-product-design-and-cad-files
+
+- [ ] Software: add readme and code @sec-product-build-firmwaresoftware
   
 - [ ] Manufacturing instructions  
     - [ ] Manufacturing safety, skills and tools @sec-product-build-manufacturing-all
