@@ -54,7 +54,7 @@
     "href": "index.html#technicality",
     "title": "Hardware documentation Guide",
     "section": "Technicality",
-    "text": "Technicality\nThis is a quarto book, each element has its own quarto/markdown file and a specific code merge them together to create chapters. See the Git repository to modify this book.\nOnline version of the book:\nURL: https://open-make.github.io/RHardware-minimaltemplate/\n\n\n\n\n\n\n\n\n\nCite this book via its zenodo archive:",
+    "text": "Technicality\nThis is a quarto book, each element has its own quarto/markdown file and a specific code merge them together to create chapters. See the Git repository to modify this book.\nOnline version of the book:\nURL: https://open-make.github.io/Hardware-template-guide/\n\n\n\n\n\n\n\n\n\nCite this book via its zenodo archive:",
     "crumbs": [
       "A guide to open source hardware projects documentation"
     ]
