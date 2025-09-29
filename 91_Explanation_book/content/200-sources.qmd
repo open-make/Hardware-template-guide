@@ -51,7 +51,13 @@ Open Know-How Specification for the Library of Open Source Hardware subtitle: OK
 <https://github.com/OPEN-NEXT/OKH-LOSH/blob/master/OKH-LOSH.md>\
 Only few addition were made from this source, as most of it is either very technical or too specialised.
 
-### OHO know how {#sec-source-oho}
+## OHO know how {#sec-source-oho}
 
 The open hardware observatory developed some best practices aimed at facilitating reviews of hardware.
-This is particularly directed toward the technical aspect of the hardware project, including how to create BOM and document CAD files: <https://en.oho.wiki/wiki/Parts_list#Guidelines>, <https://en.oho.wiki/wiki/CAD_files>
+This is particularly directed toward the technical aspect of the hardware project, including how to create BOM and document CAD files: <https://en.oho.wiki/wiki/Parts_list#Guidelines>, <https://en.oho.wiki/wiki/CAD_files>, <https://en.oho.wiki/wiki/Technical_drawings>
+
+## OSHWA best practices  {#sec-source-oshwa-bp}
+
+The OSHWA provides documentation on best practices for open hardware
+
+<https://oshwa.org/resources/sharing-best-practices/>

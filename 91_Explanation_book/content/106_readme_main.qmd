@@ -6,14 +6,19 @@ editor:
 
 # Readme as entry door {#sec-readme}
 
-Think about your audience when writing OSH documentation, and tailor the
-documentation (and design) to them. You may have different entry points
-for educators, DIY makes, peer scientists, professional engineers and so
-on. You can start your documentation with a description of some pathways
-and links tailored to specific users. You should indicate at least an
-abosulte URL pointing to a webpage or to the home repository of the
-documentation or its archive (in full text, not as a hidden link, such
-that a printed version of the documentation would link to the
+Your Open Source Hardware project should include a general description
+of the hardware’s identity and purpose (\@sec-vision-and-motivation),
+written as much as possible for a general audience. A good photo or
+rendering can help a lot here (see @sec-hardware-summary-overview).
+
+Think about your audience when writing the OSH documentation, and tailor
+the documentation (and design) to them. You may have different entry
+points for educators, DIY makes, peer scientists, professional engineers
+and so on. You can start your documentation with a description of some
+pathways and links tailored to specific users. You should indicate at
+least an absolute URL pointing to a webpage or to the home repository of
+the documentation or its archive (in full text, not as a hidden link,
+such that a printed version of the documentation would link to the
 documentation).
 
 Your project might be reused by people with different skills, roles,
@@ -49,4 +54,4 @@ its documentation to manage expectations.
 **Sources**
 
 @sec-open-next-work, @sec-source-turing, @sec-source-docubricks,
-@sec-source-OKH, @sec-source-okh-losh-version
+@sec-source-OKH, @sec-source-okh-losh-version, @sec-source-oshwa-bp

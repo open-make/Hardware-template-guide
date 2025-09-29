@@ -2,7 +2,9 @@
 
 A bill of materials (BOM) is a comprehensive list of parts, items, and other materials required to create and assemble a product, as well as instructions required for gathering and using the required materials.
 
-When the hardware is made of different (modules or parts), the bill of material usually reflects this modularisation, one can have different BOMs for each module (as is produced with Gitbuilding), or have the part numbering reflects the modules (for instance with all materials of module one being numbered 1.x).
+If your CAD package has integrated or add-on BOM management tools, those are also a good option. (Examples include the built-in tools in SolidWorks and bom-ex for Eagle.) Make it easy to tell which item in the bill of materials corresponds to which component in your design files: use matching reference designators in both places, provide a diagram indicating which part goes where, or otherwise explain the correspondence.
+
+When the hardware is made of different modules or parts, the bill of material usually reflects this modularisation, one can have different BOMs for each module (as is produced with Gitbuilding), or have the part numbering reflects the modules (for instance with all materials of module one being numbered 1.x).
 One can also provide assembled and "explosed" 3D views of the hardware.
 See the @sec-modularisation chapter.
 
@@ -36,7 +38,7 @@ A bill of material usually includes:
 
 One may also add:
 
-5.  Part short description
+6.  Part short description
 6.  Manufacturing process/tool (3D prining, machining, laser cutting)
 4. URL, link to an internet source of the part
 8.  Price
@@ -70,4 +72,4 @@ For standard components such as fasteners, pipe fittings, among others, search i
 
 **Sources**
 
-@sec-open-next-work, @sec-source-docubricks, @sec-source-oho, @sec-source-okh-losh-version
+@sec-open-next-work, @sec-source-docubricks, @sec-source-oho, @sec-source-okh-losh-version, @sec-source-oshwa-bp

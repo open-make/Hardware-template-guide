@@ -1,7 +1,7 @@
 ## Product design and CAD files {#sec-product-design-and-cad-files}
 
 Computer assisted design is usually used to create structures from the models.
-The designs should be best provided in their raw format (Native formats), an editable standard format (Neutral formats), and a exported format used for manufacture.
+The designs should be best provided in their raw format (Native formats, best for making changes), an editable standard format (Neutral formats,  interchange and export formats that can be opened or imported by other CAD programs), and a exported format (Auxiliary format, ready-to-view outputs, may be used for production or for study the design) used for manufacture.
 For example, a fusion .f3d file, a Step file and a STL file.
 Always indicate what software (including version number) was used to create the file (see @sec-software-used-for-development).
 
@@ -9,7 +9,10 @@ CAD files may contain different parts/modules in a single file.
 It is good practices to export an assemble view and an exploded view of the hardware (if the software does this).
 These views may be included in the BOM overview and the assembly instructions.
 
-If possible, create and provide your CAD files in an open format, using an pen source software.
+Ideally, your Open Source Hardware project would be designed using a free and Open Source Software application, to maximize the ability of others to view and edit it.
+For better or worse however, hardware design files are often created in proprietary programs and stored in proprietary formats.
+It is still essential to share these original design files; they constitute the original “source code” for the hardware.
+They are the very files that someone will need in order to contribute changes to a given design.
 Also try to name files with a clear name, add material specification and number of pieces, the name of the file should correspond to the name of the part in the BOM (@sec-product-build-bill-of-material).
 
 ### Brief advice for object design:
@@ -18,6 +21,8 @@ Also try to name files with a clear name, add material specification and number 
 -   Make the design parametric (for example make product length and width dependent on one single parametric unit).
 -   Utilize asymmetric design to make parts fit together uniquely and avoid miss-assemblies.
 -   Use automation tools of the used programs
+- Use free and open-source software design (CAD) tools where possible. If that’s not feasible, try to use low-cost and/or widely-used software packages.
+- Use standard and widely-available components, materials, and production processes. Try to avoid parts that aren’t available to individual customers or processes that require expensive setup costs.
 
 ### CAD for electronics, PCB design
 
@@ -78,4 +83,4 @@ To reuse a design model, it should provide information consist of:
 
 **Sources**
 
-@sec-open-next-work, @sec-source-docubricks, @sec-source-oho
+@sec-open-next-work, @sec-source-docubricks, @sec-source-oho, @sec-source-oshwa-bp

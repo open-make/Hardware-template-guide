@@ -32,6 +32,8 @@ It is advised to use markdown file for its creation and deliver a printable pdf 
 The use of media such as explanatory diagrams, screenshots, pictures, photos and videos are usually welcome.
 The instruction steps should be minute and explicit.
 
+The instructions could be in a variety of formats, like a wiki, text file, Google Doc, or PDF. Remember, though, that others might want to modify your instructions as they modify your hardware design, so it’s good to provide the original editable files for your documentation, not just output formats like PDF.
+
 Some popular software used to create webpage and pdf from markdown files:
 
 -   [GitBook](https://www.gitbook.com)
@@ -55,4 +57,4 @@ Some popular software used to create webpage and pdf from markdown files:
 
 **Sources**
 
-@sec-open-next-work, @sec-source-docubricks
+@sec-open-next-work, @sec-source-docubricks, @sec-source-oshwa-bp

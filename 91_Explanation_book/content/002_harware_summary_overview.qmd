@@ -1,4 +1,4 @@
-## hardware summary overview {#sec-hardware-summary-overview}
+## Hardware summary overview {#sec-hardware-summary-overview}
 
 This part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.
 
@@ -9,7 +9,10 @@ Describe how the hardware was implemented/created, with relevant details of the 
 
 You may also describe any variants and associated implementation differences, as well as give numbers about how many hardware were made and by whom.
 
-A schema, a picture or a video may be added here.
+A schema, a picture or a video may be added here: Photos help people understand what your project is and how to put it together.
+It’s good to publish photographs from multiple viewpoints and at various stages of assembly.
+If you don’t have photos, posting 3D renderings of your design is a good alternative.
+Either way, it’s good to provide captions or text that explain what’s shown in each image and why’s it’s useful.
 
 > Example:
 >
@@ -22,4 +25,4 @@ A schema, a picture or a video may be added here.
 
 **Sources**
 
-@sec-open-next-work, @sec-journal-of-open-hardware, @sec-source-turing, @sec-source-OKH
+@sec-open-next-work, @sec-journal-of-open-hardware, @sec-source-turing, @sec-source-OKH, @sec-source-oshwa-bp

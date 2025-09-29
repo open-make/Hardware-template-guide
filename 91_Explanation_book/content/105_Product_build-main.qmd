@@ -61,6 +61,14 @@ These questions may help you define what a module is: What parts of the hardware
 What solutions do you find most noteworthy given your experiences during the design iterations?
 What separate functions or actions does the hardware perform?
 
+## Linking products and documentation
+
+-   Provide links to the source (original design files) for your hardware on the product itself, its packaging, and/or its documentation. Add a version number on the hardware (or a release date) so that people can match the physical object with the corresponding version of its documentation.
+
+<!-- -->
+
+-   If linking to a website, make it easy to find the source (original design files) from the website for a product.
+
 > Example
 >
 > #### *Example 1: [JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover/tree/master/bill_of_materials)*
@@ -80,4 +88,4 @@ For instance, using the Gitbuilding software, one can write the manufacture and 
 
 **Sources**
 
-@sec-open-next-work, @sec-source-turing, @sec-source-docubricks
+@sec-open-next-work, @sec-source-turing, @sec-source-docubricks, @sec-source-oshwa-bp
