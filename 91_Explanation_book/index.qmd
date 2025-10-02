@@ -27,8 +27,17 @@ Different assets of the documentation can be related to different main objective
 =======
 After analyzing open source hardware documentation and existing templates (see below and @sec-sources), we are convinced that (1) documentation should grow with the different phases of a project and (2) the documentation should not restrict itself to the technical documentation necessary to reproduce the hardware (hardware replication or “making”) and information to facilitates its  operation, maintenance, repair, recycling, and disposal (covering the life cycle of the hardware). Hardware documentation should have an even larger scope: the goal is to facilitate collaborative work during the development of the hardware.
 
+::: {.content-visible when-format="html"}
 
 ![Hardware project documentation is diverse, it grows with project development (ideation, specification, concept development, prototyping, replication), and go beyond the technical documentation (black boxes) with content directed mainly on the hardware design (blue), community development (green), and business development (magenta) aspects of the hardware project.](images/docguide.gif)
+
+:::
+
+::: {.content-visible unless-format="html"}
+
+![Hardware project documentation is diverse, it grows with project development (orange boxes get darker for each of the 5 stages: ideation, specification, concept development, prototyping, replication), and go beyond the technical documentation (black boxes) with content directed mainly on the hardware design (blue), community development (green), and business development (magenta) aspects of the hardware project. See annimated version of this image on the online and epub version of the book.](images/docguide.jpg)
+
+:::
 
 
 Different assets of the documentation can be mainly related to one of four objectives or work direction:
