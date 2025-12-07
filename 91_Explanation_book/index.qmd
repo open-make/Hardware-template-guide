@@ -99,10 +99,10 @@ Cite this book via its zenodo archive:
 Julien Colomb. (2025). Guide and template for hardware project documentation (v2.0). Zenodo. https://doi.org/10.5281/zenodo.16532362
 
 
-## Guide version: 2.1
+## Guide version: 2.1.1
 
 - 2.0 This is the first stable version of the guide, based mostly on the theoretical framework developed inside the Open.Make project by the authors. It was checked for consistency between steps and chapters but was not yet tested outside the authors projects and any feedback is very welcome ! 
-- 2.1 New sources and new introductory chapter on metadata files were added.
+- 2.1.1 New sources and new introductory chapter on metadata files were added. Box of info on book use added following community feedback.
 
 
 ## FAQ
