@@ -5,6 +5,8 @@ repositoryhome ="https://codeberg.org/openmake/Hardware-template-guide/"
 bookurl = "https://open-make.github.io/Hardware-template-guide/"
 ```
 
+::: {.callout-tip}
+
 ## How to use this guide
 
 - Read this first page to understand the logic of documentation and think a about why and for whom you are documenting.
@@ -13,7 +15,7 @@ bookurl = "https://open-make.github.io/Hardware-template-guide/"
 - Discuss the content with your team (you may do it in the open on an open git forge). We advice to have such discussions and team agreement at each steps proposed by the book.
 - Once you have a release, make sure to get an archived version of the documentation (you may use zenodo for this), which will be available in case the git forge is not there in the future.
 
-
+:::
 
 ## Background
 
