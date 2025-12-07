@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.34">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="./content/960_prototypingasstep1_conc.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-485d01fc63b59abcd3ee1bf1e8e2748d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -96,7 +97,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Hardware documentation Guide</a> 
         <div class="sidebar-tools-main">
@@ -211,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#guide-organisation" id="toc-guide-organisation" class="nav-link" data-scroll-target="#guide-organisation">Guide organisation</a></li>
   <li><a href="#navigating-the-book" id="toc-navigating-the-book" class="nav-link" data-scroll-target="#navigating-the-book">Navigating the book</a></li>
   <li><a href="#technicality" id="toc-technicality" class="nav-link" data-scroll-target="#technicality">Technicality</a></li>
-  <li><a href="#guide-version-1.1" id="toc-guide-version-1.1" class="nav-link" data-scroll-target="#guide-version-1.1">Guide version: 1.1</a></li>
+  <li><a href="#guide-version-2.1.1" id="toc-guide-version-2.1.1" class="nav-link" data-scroll-target="#guide-version-2.1.1">Guide version: 2.1.1</a></li>
   <li><a href="#faq" id="toc-faq" class="nav-link" data-scroll-target="#faq">FAQ</a></li>
   </ul></li>
   </ul>
@@ -253,6 +256,25 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="a-guide-to-open-source-hardware-projects-documentation" class="level1 unnumbered">
 <h1 class="unnumbered">A guide to open source hardware projects documentation</h1>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>How to use this guide
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Read this first page to understand the logic of documentation and think a about why and for whom you are documenting.</li>
+<li>Download the template files in the <a href="https://codeberg.org/openmake/Hardware-template-guide/">home of this project</a>, choose the incrementingtemplate or the Fulltemplate version depending on the stage of your project and your preferences.</li>
+<li>Fill the template: the checklists in the presentation of the steps (in the chapter <a href="content/960_prototypingasstep1_conc.html" class="quarto-xref"><span>Steps</span></a>) can help you both organize the work and easily access the information this guide gives on each element. You may also go through the template and search the book for information.</li>
+<li>Discuss the content with your team (you may do it in the open on an open git forge). We advice to have such discussions and team agreement at each steps proposed by the book.</li>
+<li>Once you have a release, make sure to get an archived version of the documentation (you may use zenodo for this), which will be available in case the git forge is not there in the future.</li>
+</ul>
+</div>
+</div>
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
 <p>After analyzing open source hardware documentation and existing templates (see below and <a href="content/200-sources.html" class="quarto-xref"><span>10&nbsp; Sources</span></a>), we are convinced that (1) documentation should grow with the different phases of a project and (2) the documentation should not restrict itself to the technical documentation necessary to reproduce the hardware (hardware replication or “making”) and information to facilitates its operation, maintenance, repair, recycling, and disposal (covering the life cycle of the hardware). Hardware documentation should have an even larger scope: the goal is to facilitate collaborative work during the development of the hardware.</p>
@@ -267,7 +289,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Hardware design,</li>
 <li>Community building,</li>
 <li>Business development and</li>
-<li>Hardware production.</li>
+<li>Hardware (re-)production.</li>
 </ul>
 <p>, and can be defined at different stage of the project:</p>
 <ol type="1">
@@ -288,7 +310,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="guide-organisation" class="level2">
 <h2 class="anchored" data-anchor-id="guide-organisation">Guide organisation</h2>
 <p>The guide starts with a description of the steps, with a checklist of information to add at each step. This corresponds to the elements of the template in its “incremental template” form. In the checklist, each element is linked to the corresponding sub-chapters of the guide that explain what that element is.</p>
-<p>The book chapters and subchapters follows the order of the “full template”, which correspond to all elements one may include in an advanced project: readme file,community folder, project history folder, conceptualisation and specification folder, hardware design folder, and user guides folder). Some elements of the guide are not in the template, because the elements should best be organised via a different repository and linked in the readme (software, data, educational resources)</p>
+<p>The book chapters and subchapters follows the order of the “full template”, which correspond to all elements one may include in an advanced project: readme file,community folder, project history folder, conceptualisation and specification folder, hardware design folder, and user guides folder). Some elements of the guide are not in the template, because the elements should best be organised via a different repository and linked in the readme (software, data, educational resources).</p>
 <p>Because we expect most project to see this template when already having a prototype, we added a special chapter on starting documentation at this stage (<a href="content/960_prototypingasstep1_conc.html#sec-if-you-have-a-prototype" class="quarto-xref"><span>Document when you already have a prototype</span></a>).</p>
 </section>
 <section id="navigating-the-book" class="level2">
@@ -311,11 +333,11 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>Cite this book via its zenodo archive: Julien Colomb. (2025). Guide and template for hardware project documentation (v2.0). Zenodo. https://doi.org/10.5281/zenodo.16532362</p>
 </section>
-<section id="guide-version-1.1" class="level2">
-<h2 class="anchored" data-anchor-id="guide-version-1.1">Guide version: 1.1</h2>
+<section id="guide-version-2.1.1" class="level2">
+<h2 class="anchored" data-anchor-id="guide-version-2.1.1">Guide version: 2.1.1</h2>
 <ul>
-<li>1.0 This is the first stable version of the guide, based mostly on the theoretical framework developed inside the Open.Make project by the authors. It was checked for consistency between steps and chapters but was not yet tested outside the authors projects and any feedback is very welcome !</li>
-<li>1.1 New sources and new introductory chapter on metadata files were added.</li>
+<li>2.0 This is the first stable version of the guide, based mostly on the theoretical framework developed inside the Open.Make project by the authors. It was checked for consistency between steps and chapters but was not yet tested outside the authors projects and any feedback is very welcome !</li>
+<li>2.1.1 New sources and new introductory chapter on metadata files were added. Box of info on book use added following community feedback.</li>
 </ul>
 </section>
 <section id="faq" class="level2">
@@ -396,13 +418,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
