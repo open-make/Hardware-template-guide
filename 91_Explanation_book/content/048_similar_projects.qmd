@@ -2,12 +2,19 @@
 
 It is advisable to look for similar project one can join, instead of starting a new one.
 
-It is reasonable to invest quite a lot of time in looking for similar projects.
+It is reasonable to invest **quite a lot of time** in looking for similar projects.
 OSH are often difficult to find and comprehend, but finding projects may save you a lot of time and hassle.
 Indeed, you may learn a lot about your needs, refine your ideas, and may even find collaborators while browsing existing OSH projects.
+
+Strategy to find similar projects:
+
+- look at the OSHWA certification list
+- Search academic databases: <https://www.base-search.net> , <https://openalex.org>
+- make an internet search
+- Once you have found one related project, look carefully for other projects that project may refer to. You may contact the maintainers as they may know of projects that cannot be found online.
 
 ------------------------------------------------------------------------
 
 **Sources**
 
-@sec-source-turing
+@sec-source-turing, Feedback from users.

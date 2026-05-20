@@ -7,8 +7,7 @@ This step aims at researching the technology that will be best adapted to fulfil
 
 If possible, one should try to define the **Modular architecture** of the hardware, which describes **architecture of functions and instructions of the product**.
 
-An important part of this step is the research of similar project.
-You may end up joining an existing community and extending (adding a new module) or adapting an (or combining several) existing open hardware solutions.
+> An important part of this step is the **research of similar project (last element of the checklist).** You may end up joining an existing community and extending (adding a new module) or adapting an (or combining several) existing open hardware solutions.
 
 Usually, this step ends with a redefinition of the needs and vision, and the three first steps often are iteratively determined until a concept is chosen for the first prototype.
 
@@ -20,28 +19,28 @@ Usually, this step ends with a redefinition of the needs and vision, and the thr
 The concept phase is the main design phase of the hardware.
 While in practice, it is often made in parallel to the prototyping, larger project should invest some time at this step, and the use of the Function-Behaviour-Structure (FBS) design approach will facilitate future co-design (see @sec-fbs-modeling):
 
--   **Function (F)** stands for **“what the object is for”.**
--   **Behaviour (B)** stands for **“what the object does”.**
--   **Structure (S)** stands for **“what the object consists of”.**
+- **Function (F)** stands for **“what the object is for”.**
+- **Behaviour (B)** stands for **“what the object does”.**
+- **Structure (S)** stands for **“what the object consists of”.**
 
 ### Checklist concept development
 
--   [ ] Complete the readme file
-    -   [ ] development stage: concept development
-    -   [ ] dependencies @sec-dependencies
-    -   [ ] *conclusions* @sec-conclusions
-    -   [ ] software used for development @sec-software-used-for-development
-    -   [ ] harware summary overview @sec-hardware-summary-overview
--   [ ] History
-    -   [ ] release note @sec-project-history-releasenotes
-    -   [ ] design_choices @sec-designchoices
-    -   [ ] update change log @sec-project-history-changelog
--   [ ] Product development
-    -   [ ] update hardwareoverview
-        -   [ ] application, use cases @sec-use-cases-and-application
-        -   [ ] \*reuse potential @*sec-reuse-possibilities
-        -   [ ] main architectural structure \@sec-structural-model
-        -   [ ] \*foreseen cost + time cost @*sec-foreseen-cost
-    -   [ ] functional model @sec-functional-model
-    -   [ ] Behavioral model @sec-behavioral-model
-    -   [ ] Similar projects @sec-similar-projects
+- [ ] Complete the readme file
+  - [ ] development stage: concept development
+  - [ ] dependencies @sec-dependencies
+  - [ ] *conclusions* @sec-conclusions
+  - [ ] software used for development @sec-software-used-for-development
+  - [ ] harware summary overview @sec-hardware-summary-overview
+- [ ] History
+  - [ ] release note @sec-project-history-releasenotes
+  - [ ] design_choices @sec-designchoices
+  - [ ] update change log @sec-project-history-changelog
+- [ ] Product development
+  - [ ] update hardwareoverview
+    - [ ] application, use cases @sec-use-cases-and-application
+    - [ ] \*reuse potential @*sec-reuse-possibilities
+    - [ ] main architectural structure \@sec-structural-model
+    - [ ] \*foreseen cost + time cost @*sec-foreseen-cost
+  - [ ] functional model @sec-functional-model
+  - [ ] Behavioral model @sec-behavioral-model
+  - [ ] Similar projects @sec-similar-projects
