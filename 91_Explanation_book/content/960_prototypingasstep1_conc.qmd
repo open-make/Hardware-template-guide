@@ -28,8 +28,12 @@ So, our advice is to look at the checklists of each step also when you have a pr
 
 The process may help you to refine the scope of your project, potentially help you find your users and facilitate discussions with other contributors or investors.
 
+# Metadata
 
-
+In order to facilitate discovery, your documentation may have a OpenKnowHow manifest file, where information is provided in a computer readable form. Please refer to the online documentation and tools: https://okh.makernet.org/form.
+  Open Know-How Specification. (2022). Internet of Production Alliance. Retrieved from https://standards.internetofproduction.org/pub/okh
+  
+# Steps {#sec-steps}
 
 
 ## Step 1 Ideation
@@ -42,16 +46,18 @@ At this step, you want to share your idea, usually with a small number of people
 
 This should all be included in the readme file:
 
--   [ ] General information
+-   [ ] General information @sec-readme
 
     -   [ ] name of the project
     -   [ ] development stage: idea generation
-    -   [ ] *type of hardware, subject area*
+    -   [ ] *type of hardware, subject area* @sec-type-of-hardware-subject-area
+    -   [ ] For whom is this documentation made 
     -   [ ] **License(s)** @sec-license-and-rights
-    -   [ ] For whom is this documentation made @sec-readme
-    -   [ ] short problem description @sec-problem-description
+
 
 -   [ ] vision and motivations @sec-vision-and-motivation
+
+-   [ ] short problem description @sec-problem-description
 
 -   [ ] Contributions
 

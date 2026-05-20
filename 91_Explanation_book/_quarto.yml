@@ -30,7 +30,9 @@ book:
   - content/200-sources.qmd
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
   pdf:
     documentclass: scrreport
   epub:
