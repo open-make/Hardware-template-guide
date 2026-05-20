@@ -54,9 +54,21 @@ Production instructions should include:
 
 ## Modularisation {#sec-modularisation}
 
-When there are multiple parts, it is best practice to have a BOM for each part, and one BOM for the whole hardware.
+When there are multiple parts, it is best practice to split the project into different modules and have a BOM for each part, and one BOM for the whole hardware (see @sec-product-build-bill-of-material).
 For complex project, it is therefore best to create BOM automatically.
 Some software are meant to created BOM from the CAD files (CAD-coupled documentation, <https://doi.org/10.5334/joh.56>) or from the assembly instruction (using [Gitbuilding](https://gitbuilding.io)).
+
+These questions may help you define what a module is: What parts of the hardware could be used as a component of another project or a variation of this hardware?
+What solutions do you find most noteworthy given your experiences during the design iterations?
+What separate functions or actions does the hardware perform?
+
+## Linking products and documentation
+
+-   Provide links to the source (original design files) for your hardware on the product itself, its packaging, and/or its documentation. Add a version number on the hardware (or a release date) so that people can match the physical object with the corresponding version of its documentation.
+
+<!-- -->
+
+-   If linking to a website, make it easy to find the source (original design files) from the website for a product.
 
 > Example
 >
@@ -77,38 +89,84 @@ For instance, using the Gitbuilding software, one can write the manufacture and 
 
 **Sources**
 
-@sec-open-next-work, @sec-source-turing
+@sec-open-next-work, @sec-source-turing, @sec-source-docubricks, @sec-source-oshwa-bp
 
 
 ## Product Build: Bill of material {#sec-product-build-bill-of-material}
 
-A bill of materials (BOM) is a comprehensive list of parts, items, and other materials required to create a product, as well as instructions required for gathering and using the required materials.
+A bill of materials (BOM) is a comprehensive list of parts, items, and other materials required to create and assemble a product, as well as instructions required for gathering and using the required materials.
+
+If your CAD package has integrated or add-on BOM management tools, those are also a good option. (Examples include the built-in tools in SolidWorks and bom-ex for Eagle.) Make it easy to tell which item in the bill of materials corresponds to which component in your design files: use matching reference designators in both places, provide a diagram indicating which part goes where, or otherwise explain the correspondence.
+
+When the hardware is made of different modules or parts, the bill of material usually reflects this modularisation, one can have different BOMs for each module (as is produced with Gitbuilding), or have the part numbering reflects the modules (for instance with all materials of module one being numbered 1.x).
+One can also provide assembled and "explosed" 3D views of the hardware.
+See the @sec-modularisation chapter.
+
+The BOM list should be computer readable, preferably in CSV format, with UTF8 encoding.
+Follow best practices in spreadsheet design, gives parts in rows, give one and only one column for each type of information, one cell containing only one value.
+Never merge cells and do not use colors in your software (they will disappear in the csv version).
+Note that it is easy to automatically merge to cells into one, but difficult to split one cells into two.
+
 If the component is to be purchased, one should find all the information required to buy the part.
-If the part is to be manufactured, one should find all the descriptions of the manufacturing instructions as described below.
+There are two types of purchased components.
+1.
+the standard components (such as screws, connectors, standardized electrical components) can usually be bought at different places and have a specific persistent identifier (see @sec-standardcomp).
+2.
+the non standard components need to be described in more details indicating at least technical data, supplier, order number, and website.
+
+If the part is to be manufactured, one should find all the descriptions of the manufacturing instructions (see @sec-product-build-manufacturing-instructions). There are also two categories here: parts that were designed in this project, and parts that were designed by others and were made available under a permissive license.
 
 A bill of material usually includes:
 
 1.  Part number
-2.  Item name
-3.  Manufacturer part number
-4.  Digi-Key part number
-5.  Description
-6.  Manufactured part (link to manufacturing instruction)
-7.  Purchased part (link to seller website)
-8.  Quantity
-9.  Price
-10. Manufacturing standard lead time
-11. Packaging instruction
-12. BOM notes
+2.  Part name
+3.  Quantity (amount and unit)
+4.  Part type: `Production` (needs to be manufactured, self-designed part), `Standard`, or `Buy` (proprietary components)
+5.  Specifications, with 5 columns:
 
+-   Manufacturer
+-   Manufacturer part number
+-   Supplier
+-   Supplier part number
+-   Link to manufacturing instructions (step by step instructions)
 
+One may also add:
+
+6.  Part short description
+6.  Manufacturing process/tool (3D prining, machining, laser cutting)
+4. URL, link to an internet source of the part
+8.  Price
+9.  Manufacturing standard lead time
+10. Packaging instruction
+11. Pre-processing needed
+12. Notes
+13. Link to the documentation:
+    -   Part description
+    -   images
+    -   videos
+    -   source: CAD files
+    -   export files (STP, STL, PDF file)
+    -   auxiliary (files that are neither source files nor their exports, but still useful)
+
+NB: Digi-Key part number is a special case of supplier part number
+
+NB: The OSH-LOSH metadata schema has special entries for parts information, including tsdc (Technology-specific Documentation Criteria), which is a computer readable version of the information asked in the list above.
+
+### Standard components {#sec-standardcomp}
+
+For standard components such as fasteners, pipe fittings, among others, search in the following order in order to find persistent identifiers (for instance DIN designation) and suppliers:
+
+-   DIN libraries of the CAD systems used
+-   Other libraries of the CAD systems used
+-   Links provided by OHO
+-   Internet libraries, mainly in metric system
+-   Wikipedia
 
 ------------------------------------------------------------------------
 
 **Sources**
 
-@sec-open-next-work
-
+@sec-open-next-work, @sec-source-docubricks, @sec-source-oho, @sec-source-okh-losh-version, @sec-source-oshwa-bp
 
 
 ## Product build - material characteristics {#sec-product-build-material-characteristics}
@@ -204,7 +262,7 @@ Also indicate details on the operating software and programming language, and in
 
 **Sources**
 
-@sec-open-next-work, @sec-journal-of-open-hardware
+@sec-open-next-work, @sec-journal-of-open-hardware, @sec-source-oshwa-bp
 
 
 

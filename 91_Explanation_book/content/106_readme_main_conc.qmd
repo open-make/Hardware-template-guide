@@ -2,33 +2,55 @@
 
 # Readme as entry door {#sec-readme}
 
-Think about your audience when writing OSH documentation, and tailor the
-documentation (and design) to them. You may have different entry points
-for educatiors, DIY makes, peer scientists, professional engineers and
-so on. You can start your documentation with a description of some
-pathways and links tailored to specific users.\
-\
-The readme usually starts with some main information about the hardware
-(name, development stage, subject area, license). It may be good to have
-that information both in the readme and in a computer readable format,
-like a OKH metadata file.
+Your Open Source Hardware project should include a general description
+of the hardware’s identity and purpose (\@sec-vision-and-motivation),
+written as much as possible for a general audience. A good photo or
+rendering can help a lot here (see @sec-hardware-summary-overview).
 
-Indeed, your project might be reused by people with different skills,
-roles, objectives, and socio-economic and cultural environments. Because
-of this it can be useful to create a list of skills that are required to
+Think about your audience when writing the OSH documentation, and tailor
+the documentation (and design) to them. You may have different entry
+points for educators, DIY makes, peer scientists, professional engineers
+and so on. You can start your documentation with a description of some
+pathways and links tailored to specific users. You should indicate at
+least an absolute URL pointing to a webpage or to the home repository of
+the documentation or its archive (in full text, not as a hidden link,
+such that a printed version of the documentation would link to the
+documentation).
+
+Your project might be reused by people with different skills, roles,
+objectives, and socio-economic and cultural environments. Because of
+this it can be useful to create a list of skills that are required to
 build (manufacture @sec-product-build-manufacturing-all, and assemble
 @sec-product-build-assembly-skills-and-tools) or use the hardware
 (@sec-user-skills). Someone trying to build it from scratch, for
 example, will require specific set of prior knowledge, skills, and
 tools. A different set is needed to perform maintenance tasks. An end
 user operating the assembled project might require an entirely distinct
-skillset (and documentation).
+skillsets (and documentation).
+
+The readme usually starts with some main information about the hardware
+(name, development stage, subject area, keywords, license, languages
+available, latest change, date of creation). It may be good to have that
+information both in the readme and in a computer readable format, like a
+OKH metadata file.
+
+## *Type of hardware, subject area* {#sec-type-of-hardware-subject-area}
+
+On top of keywords mentioned previously, one can report the Cpc
+(**Cooperative Patent Classification)** class
+(<https://worldwide.espacenet.com/classification>) of the hardware.
+
+You also may indicate the purpose and/or maturity of the hardware and
+its documentation to manage expectations.
+
+> Examples: proof of principle, easy to make in educational workshop
 
 ------------------------------------------------------------------------
 
 **Sources**
 
-@sec-open-next-work, @sec-source-turing, @sec-source-docubricks
+@sec-open-next-work, @sec-source-turing, @sec-source-docubricks,
+@sec-source-OKH, @sec-source-okh-losh-version, @sec-source-oshwa-bp
 
 
 ## Vision and motivation {#sec-vision-and-motivation}
@@ -88,17 +110,21 @@ Examples:
 @sec-open-next-work, @sec-source-turing
 
 
-## hardware summary overview {#sec-hardware-summary-overview}
+## Hardware summary overview {#sec-hardware-summary-overview}
 
 This part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.
 
-Give an overview of the hardware, what it does, how it was produced, and, if relevant, the research for which it has been used.
+Give an overview of the hardware, what it does (intended use), how it was produced, and, if relevant, the research for which it has been used.
 Write as much as possible for a general audience.
 That is, explain what the project is and what it is for, before you get into the technical details.
 Describe how the hardware was implemented/created, with relevant details of the architecture and design, including general materials.
-You may also describe any variants and associated implementation differences.
 
-A schema, a picture or a video may be added here.
+You may also describe any variants and associated implementation differences, as well as give numbers about how many hardware were made and by whom.
+
+A schema, a picture or a video may be added here: Photos help people understand what your project is and how to put it together.
+It’s good to publish photographs from multiple viewpoints and at various stages of assembly.
+If you don’t have photos, posting 3D renderings of your design is a good alternative.
+Either way, it’s good to provide captions or text that explain what’s shown in each image and why’s it’s useful.
 
 > Example:
 >
@@ -111,7 +137,7 @@ A schema, a picture or a video may be added here.
 
 **Sources**
 
-@sec-open-next-work, @sec-journal-of-open-hardware, @sec-source-turing
+@sec-open-next-work, @sec-journal-of-open-hardware, @sec-source-turing, @sec-source-OKH, @sec-source-oshwa-bp
 
 
 ## Standard compliance {#sec-standard-compliance}
@@ -120,9 +146,22 @@ Please indicate if the hardware is compliant with standards (DIN, ISO, ...).
 
 You may also indicate why it is not, if relevant.
 
+You may indicate:
+
+-   Standard title
+-   publisher
+-   reference
+-   certification status: certifier, date, link
+
 > example
 >
 > The stairs are compliant with DIN 18065:2011-06
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-source-OKH
 
 
 ## Outputs: Products and data {#sec-outputs-products-and-data}
@@ -158,11 +197,14 @@ Elaborate how the hardware technically/methodologically advances the state-of-th
 This may be important for future development, as new validation cycles would probably build on this documentation.
 Indicate any sofware/code used for validation of the design.
 
+You can indicate whether the whether the thing has been made (and by whom) and verifies that it is makeable.
+This section should indicate whether the thing has been made independently using the documentation by someone who was not a contributor to the design or documentation and, therefore, verifies that the documentation is sufficient to make the thing.
+
 ------------------------------------------------------------------------
 
 **Sources**
 
-@sec-journal-of-open-hardware
+@sec-journal-of-open-hardware, @sec-source-OKH
 
 
 ## Education resources {#sec-education-resources}
@@ -250,7 +292,7 @@ Describe the problem in this section and how the hardware addresses the problem.
 @sec-journal-of-open-hardware
 
 
-## dependencies {#sec-dependencies}
+## Dependencies {#sec-dependencies}
 
 Here it is welcome to acknowledge the existing sources that have been used in this project with locations, and name their initiators.
 At best, present dependencies following what these projects provide as citation information.
@@ -260,23 +302,27 @@ But at least:
 
 -   URL of the original project
 
-    You may also cite projects that project is citing as dependencies or source, with the URL of other related projects
+
+You may also cite projects that project is citing as dependencies or source, with the URL of other related projects, and link to projects that are using this project as a dependency. This correponds to the OKH metadata entries variants_of, drivation_of, and sub-thing_of.
 
 These dependencies can be hardware or software projects, modular components, libraries, or frameworks.
-You may indicate information on version compatibilities.
+You may indicate information on version compatibility.
 You should explicitly state if dependencies are proprietary / closed source.
+
+This may also be used to present other OSH projects
 
 ------------------------------------------------------------------------
 
 **Sources**
 
-@sec-open-next-work, @sec-journal-of-open-hardware
+@sec-open-next-work, @sec-journal-of-open-hardware, @sec-source-OKH
 
 
 ## Software used for development {#sec-software-used-for-development}
 
 Indicate what software is/was used in the development, this is particularly important for (expensive) CAD software, in order for collaborators to know if they have the right software and skills to help.
 Also indicate what software are used for the behavioral modelling, if there is any.
+Always indicate software name and version, possibly adding a link to the software online home.
 
 > Example
 >
@@ -345,12 +391,12 @@ Further work pursued by the authors or collaborators; known issues; suggestions 
 
 ## Community, List of team members and contributors {#sec-list-of-team-members-contributors}
 
-Describe here who are the maintainers and the main contributors of the project, indicate their name, role in the project and link to further information.
+Describe here who are the maintainers and the main contributors of the project, indicate their name, role in the project and link to further information (for instance their orcid number and/or affiliation for academic staff).
 
 - This section may be split in different categories of contributors.
-For example, one can separate authors, contributors and aknowledged people.
+For example, one can separate authors, contributors and acknowledged people.
 There is presently no definition of these categories or standard way to report contributions.
-- For each contributor, you may indicate tasks performend (design, assembly, use cases contribution, documentation, paper
+- For each contributor, you may indicate tasks performed (design, assembly, use cases contribution, documentation, paper
 writing,...)
 
 -   Avoid giving personal information (like emails) in the documentation itself. One non-personal email (or not recognisable email) can be given as a communication tool.
@@ -361,7 +407,7 @@ writing,...)
 
 **Sources**
 
-@sec-open-next-work, @sec-journal-of-open-hardware
+@sec-open-next-work, @sec-journal-of-open-hardware, @sec-source-docubricks
 
 
 ## Who could contribute {#sec-who-could-contribute}
@@ -404,16 +450,20 @@ Suggested license:
 -   Hardware: CERN-OHL-S Strongly reciprocal (most restrictive); CERN-OHL-W Weakly reciprocal; CERN-OHL-P Permissive (less restrictive). See: https://cern-ohl.web.cern.ch
 -   Software: Any of the Open Source Initiative approved license (https://opensource.org/licenses)
 
+At least one license should be indicated, use a SPDX identifier: <https://spdx.org/licenses/>
+
+In general, clearly indicate which parts of a product are open-source (and which aren’t).
+
 > Example:
 >
-> This readme file, the 01_community, 02_project_history, and 05_user_guides folders are shared under a CC-BY 4.0 license, the 03_specification_concept and 04_hardware folders are shared undear a CERN-OHL-P license.
+> This readme file, the 01_community, 02_project_history, and 05_user_guides folders are shared under a CC-BY-4.0 license, the 03_specification_concept and 04_hardware folders are shared under a CERN-OHL-P-2.0 license.
 > The 11_software folder is shared under a MIT license.
 
 ------------------------------------------------------------------------
 
 **Sources**
 
-@sec-open-next-work, @sec-journal-of-open-hardware, @sec-source-turing
+@sec-open-next-work, @sec-journal-of-open-hardware, @sec-source-turing, @sec-source-OKH
 
 
 ## Sponsors and funding {#sec-sponsors-and-funding}

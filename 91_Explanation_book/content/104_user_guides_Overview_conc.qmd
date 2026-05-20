@@ -20,7 +20,7 @@ It usually includes:
 
 6.  Environmental management: @sec-user-guidesenvironmental-management
 
-5.  Troubleshooting section: @sec-user-guides-troubleshooting
+5.  Troubleshooting and testing section: @sec-user-guides-troubleshooting
 
 7.  Maintenance and Repair information: @sec-maintenance, @sec-user-guides-repair
 
@@ -30,7 +30,10 @@ It usually includes:
 
 The form of the guide is usually a printable document or a website.
 It is advised to use markdown file for its creation and deliver a printable pdf for the users.
-The use of screenshots, photos and videos are usually welcome.
+The use of media such as explanatory diagrams, screenshots, pictures, photos and videos are usually welcome.
+The instruction steps should be minute and explicit.
+
+The instructions could be in a variety of formats, like a wiki, text file, Google Doc, or PDF. Remember, though, that others might want to modify your instructions as they modify your hardware design, so it’s good to provide the original editable files for your documentation, not just output formats like PDF.
 
 Some popular software used to create webpage and pdf from markdown files:
 
@@ -55,7 +58,7 @@ Some popular software used to create webpage and pdf from markdown files:
 
 **Sources**
 
-@sec-open-next-work
+@sec-open-next-work, @sec-source-docubricks, @sec-source-oshwa-bp
 
 
 ## Overview of the hardware for users {#sec-user-guides-overview-of-the-hardware}
@@ -79,14 +82,17 @@ One can describe examples of application of the hardware. This should include so
 ## User Guides : Safety information {#sec-user-guides-safety-information}
 
 Describe all relevant safety issues or references to a risk assessment if included (for example high voltage, chemical safety etc.). If appropriate, discuss the wider context of the use of the hardware and safety issues or risks that may arise in the use environment.
+t may include more than one link if different assessments cover different aspects or making, operation, maintenance and disposal of the hardware.
 
 OSH makers are not always formally trained engineers and may not be able to easily differentiate between dangerous and safe manipulations.
+
+This does not need to be an exhaustive list of all risks associated with the thing, but a summary of the most important risks and hazards associated with making, using, maintaining or disposing of the hardware. Knowledge of such issues could influence the decision to make the thing.
 
 ------------------------------------------------------------------------
 
 **Sources**
 
-@sec-journal-of-open-hardware, @sec-source-turing
+@sec-journal-of-open-hardware, @sec-source-turing, sec-source-OKH
 
 
 ## Operation instructions {#sec-operation-instructions}
